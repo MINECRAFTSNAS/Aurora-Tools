@@ -1,0 +1,102 @@
+/* ============================================================
+   Win11 设计令牌（与 Aurora Player 保持一致）
+   ============================================================ */
+:root {
+  --accent: #4cc2ff;
+  --accent-strong: #2f9fe0;
+  --accent-soft: rgba(76, 194, 255, 0.18);
+
+  --text-primary: rgba(255, 255, 255, 0.96);
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --text-tertiary: rgba(255, 255, 255, 0.48);
+  --text-disabled: rgba(255, 255, 255, 0.32);
+
+  --ctrl-fill: rgba(255, 255, 255, 0.06);
+  --ctrl-fill-hover: rgba(255, 255, 255, 0.1);
+  --ctrl-fill-active: rgba(255, 255, 255, 0.045);
+  --ctrl-fill-disabled: rgba(255, 255, 255, 0.04);
+  --ctrl-stroke: rgba(255, 255, 255, 0.1);
+
+  --layer: rgba(255, 255, 255, 0.05);
+  --layer-hover: rgba(255, 255, 255, 0.08);
+  --card: rgba(255, 255, 255, 0.045);
+  --card-stroke: rgba(255, 255, 255, 0.08);
+
+  --ok: #7ee2a8;
+  --warn: #ffc46b;
+  --danger: #ff9a8f;
+
+  --shadow-2: 0 1px 2px rgba(0, 0, 0, 0.24);
+  --shadow-8: 0 2px 6px rgba(0, 0, 0, 0.28);
+  --shadow-16: 0 4px 14px rgba(0, 0, 0, 0.32);
+
+  --r-sm: 4px;
+  --r-md: 7px;
+  --r-lg: 8px;
+  --r-xl: 12px;
+  --r-circular: 9999px;
+
+  --dur-fast: 100ms;
+  --dur-normal: 200ms;
+  --dur-slow: 300ms;
+  --ease-fluent: cubic-bezier(0.33, 0, 0.67, 1);
+  --ease-decel: cubic-bezier(0.1, 0.9, 0.2, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  background:
+    radial-gradient(120% 90% at 8% 0%, rgba(76, 194, 255, 0.12) 0%, transparent 55%),
+    radial-gradient(110% 80% at 100% 100%, rgba(160, 108, 255, 0.13) 0%, transparent 60%),
+    linear-gradient(160deg, rgba(22, 25, 32, 0.86) 0%, rgba(13, 15, 20, 0.92) 100%);
+  color: var(--text-primary);
+  font-family: 'Segoe UI Variable Text', 'Segoe UI', 'Microsoft YaHei UI', 'Microsoft YaHei',
+    system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.16);
+  border: 3px solid transparent;
+  background-clip: content-box;
+  border-radius: var(--r-circular);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.28);
+  background-clip: content-box;
+}
+
+:focus-visible {
+  outline: 2px solid var(--text-primary);
+  outline-offset: 1px;
+  border-radius: var(--r-sm);
+}
+
+.drag {
+  -webkit-app-region: drag;
+}
+.no-drag {
+  -webkit-app-region: no-drag;
+}

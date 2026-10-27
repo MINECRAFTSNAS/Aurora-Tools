@@ -1,0 +1,122 @@
+[
+  {
+    "name": "目标可执行文件存在",
+    "ok": true,
+    "detail": "Aurora Tools-1.0.0-portable.exe"
+  },
+  {
+    "name": "打包应用启动并暴露调试端口",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "渲染层已挂载",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "窗口标题",
+    "ok": true,
+    "detail": "Aurora Tools"
+  },
+  {
+    "name": "preload API 注入",
+    "ok": true,
+    "detail": "28 个方法"
+  },
+  {
+    "name": "解析面板与队列面板",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "窗口控制按钮",
+    "ok": true,
+    "detail": "3 个"
+  },
+  {
+    "name": "工具状态指示器",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "打包后 yt-dlp 可执行",
+    "ok": true,
+    "detail": "v2026.08.19"
+  },
+  {
+    "name": "打包后 ffmpeg 可执行",
+    "ok": true,
+    "detail": "vN-126308-gd411d9e752-20260828"
+  },
+  {
+    "name": "binDir 指向 resources/bin",
+    "ok": true,
+    "detail": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\AuroraTools\\resources\\bin"
+  },
+  {
+    "name": "binDir 实际存在",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "无外部依赖（未回退到仓库路径）",
+    "ok": true,
+    "detail": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\AuroraTools\\resources\\bin"
+  },
+  {
+    "name": "版本号正确",
+    "ok": true,
+    "detail": "1.0.0"
+  },
+  {
+    "name": "用随包 ffmpeg 生成测试素材",
+    "ok": true,
+    "detail": "exit=0"
+  },
+  {
+    "name": "打包后本地抽音轨成功",
+    "ok": true,
+    "detail": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\aurora-tools-pkg-out\\aurora-tools-pkg-test.mp3"
+  },
+  {
+    "name": "打包后拖放路径展开可用（递归 + 过滤非媒体）",
+    "ok": true,
+    "detail": "2 个：a.mp4, b.mp4"
+  },
+  {
+    "name": "打包产物为有效 mp3",
+    "ok": true,
+    "detail": "codec=mp3 dur=2.000000 size=48KB"
+  },
+  {
+    "name": "打包后解析链路可用（本地直链）",
+    "ok": true,
+    "detail": "title=\"clip\" formats=1 extractor=generic"
+  },
+  {
+    "name": "打包后视频产物路径正确（转封装场景）",
+    "ok": true,
+    "detail": "done → C:\\Users\\Administrator\\AppData\\Local\\Temp\\aurora-pkg-video-out\\clip [clip].mp4"
+  },
+  {
+    "name": "打包后视频产物非空",
+    "ok": true,
+    "detail": "21 KB"
+  },
+  {
+    "name": "设置读取",
+    "ok": true,
+    "detail": "audioFormat=mp3 concurrency=2"
+  },
+  {
+    "name": "设置写入并持久化",
+    "ok": true,
+    "detail": "audioBitrate=320"
+  },
+  {
+    "name": "非法链接被拒绝",
+    "ok": true,
+    "detail": "Uncaught (in promise) Error: Error invoking remote method 'media:probe': Error: "
+  }
+]

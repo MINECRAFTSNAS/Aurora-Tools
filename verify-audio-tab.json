@@ -1,0 +1,67 @@
+[
+  {
+    "name": "生成测试视频素材",
+    "ok": true,
+    "detail": "21 KB"
+  },
+  {
+    "name": "本地直链解析成功",
+    "ok": true,
+    "detail": "title=\"clip\" formats=1"
+  },
+  {
+    "name": "界面展示解析结果（mediainfo 出现）",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "可切换到「仅音频」标签页",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "「仅音频」区域渲染出格式下拉框",
+    "ok": true,
+    "detail": "当前=MP3"
+  },
+  {
+    "name": "比特率选项存在",
+    "ok": true,
+    "detail": "128k,192k,256k,320k"
+  },
+  {
+    "name": "音频标签页格式选择器可交互",
+    "ok": true,
+    "detail": "原值=mp3"
+  },
+  {
+    "name": "选择后主进程设置立即更新（无需重启）",
+    "ok": true,
+    "detail": "当前=flac"
+  },
+  {
+    "name": "界面标签立即更新",
+    "ok": true,
+    "detail": "FLAC (无损)"
+  },
+  {
+    "name": "浮层选完自动收起",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "切换为无损格式后比特率选项自动隐藏",
+    "ok": true,
+    "detail": "剩 0 个"
+  },
+  {
+    "name": "换回 MP3 后比特率选项重新出现",
+    "ok": true,
+    "detail": "4 个"
+  },
+  {
+    "name": "比特率点选后立即生效",
+    "ok": true,
+    "detail": "audioBitrate=320 选中=320k"
+  }
+]

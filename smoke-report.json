@@ -1,0 +1,97 @@
+[
+  {
+    "name": "主进程创建窗口",
+    "ok": true,
+    "detail": "1 个窗口"
+  },
+  {
+    "name": "preload API 注入",
+    "ok": true,
+    "detail": "28 个方法"
+  },
+  {
+    "name": "解析面板",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "队列面板",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "窗口按钮（3 个）",
+    "ok": true,
+    "detail": "3 个"
+  },
+  {
+    "name": "设置按钮 + 状态指示",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "界面文案",
+    "ok": true,
+    "detail": "Aurora Tools | 视频解析下载 · 音频提取 | 解析 | 贴一个视频链接开始，或直接把文件拖进窗口 | 链接支持 yt-dlp 能解析的站点；拖入视频 / 音频文件或文件夹会进入下方的「本地提取」。 工具已"
+  },
+  {
+    "name": "内置 yt-dlp 可用",
+    "ok": true,
+    "detail": "version=2026.08.19"
+  },
+  {
+    "name": "内置 ffmpeg 可用",
+    "ok": true,
+    "detail": "version=N-126308-gd411d9e752-20260828"
+  },
+  {
+    "name": "二进制目录定位",
+    "ok": true,
+    "detail": "D:\\Test\\AI\\aurora-tools\\resources\\bin"
+  },
+  {
+    "name": "生成测试视频",
+    "ok": true,
+    "detail": "30 KB"
+  },
+  {
+    "name": "本地视频抽音轨（真实 ffmpeg）",
+    "ok": true,
+    "detail": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\aurora-tools-out\\aurora-tools-test.mp3"
+  },
+  {
+    "name": "输出音频文件已生成",
+    "ok": true,
+    "detail": "72 KB"
+  },
+  {
+    "name": "输出可被 ffprobe 识别为音频",
+    "ok": true,
+    "detail": "codec=mp3 channels=1 dur=3.000000"
+  },
+  {
+    "name": "本地抽音轨 FLAC（无损）",
+    "ok": true,
+    "detail": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\aurora-tools-out\\aurora-tools-test.flac"
+  },
+  {
+    "name": "任务列表接口",
+    "ok": true,
+    "detail": "2 个任务"
+  },
+  {
+    "name": "可创建下载任务",
+    "ok": true,
+    "detail": "id=d8c9bcf5…"
+  },
+  {
+    "name": "无效地址正确失败并给出可读原因",
+    "ok": true,
+    "detail": "error — 域名解析失败，请检查网络连接"
+  },
+  {
+    "name": "网络解析真实站点",
+    "ok": true,
+    "detail": "SKIP: 未启用 --online"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "name": "本地提取区块在未解析时即存在",
+    "ok": true,
+    "detail": "已渲染"
+  },
+  {
+    "name": "本地提取的「选择视频文件」按钮可用",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "本地提取带有独立分隔标题",
+    "ok": true,
+    "detail": "本地视频提取音频"
+  },
+  {
+    "name": "确认此时确实没有解析结果（前提成立）",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "下拉框可展开",
+    "ok": true,
+    "detail": "6 个选项"
+  },
+  {
+    "name": "下拉浮层用 fixed 定位且高层级（不会被背景压住）",
+    "ok": true,
+    "detail": "position=fixed z-index=99998"
+  },
+  {
+    "name": "浮层确实位于最上层（命中测试）",
+    "ok": true,
+    "detail": "panel-on-top"
+  },
+  {
+    "name": "在下拉框里选中 FLAC",
+    "ok": true,
+    "detail": "原设置=mp3"
+  },
+  {
+    "name": "主进程设置已更新（无需重启）",
+    "ok": true,
+    "detail": "现在=flac"
+  },
+  {
+    "name": "UI 标签立即跟随（不是重启后才变）",
+    "ok": true,
+    "detail": "FLAC (无损)"
+  },
+  {
+    "name": "浮层选完后自动关闭",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "切到 MP3 后比特率选项出现",
+    "ok": true,
+    "detail": "128k,192k,256k,320k"
+  },
+  {
+    "name": "点选 320k 后主进程设置立即更新",
+    "ok": true,
+    "detail": "audioBitrate=320"
+  },
+  {
+    "name": "比特率按钮选中态立即反映（无需重启）",
+    "ok": true,
+    "detail": "选中=320k"
+  },
+  {
+    "name": "设置面板内下拉框可展开",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "设置面板下拉浮层在最上层",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "浮层完整位于视口内（未被裁切）",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "自绘窗口按钮恰好 3 个",
+    "ok": true,
+    "detail": "3 个"
+  },
+  {
+    "name": "无系统原生标题栏（frameless 生效）",
+    "ok": true,
+    "detail": "outer-inner=0px"
+  },
+  {
+    "name": "悬停提示可显示（portal 挂在 body 上）",
+    "ok": true,
+    "detail": "\"设置\""
+  },
+  {
+    "name": "悬停提示层级最高且完整可见",
+    "ok": true,
+    "detail": "z=99999 pos=fixed inView=true"
+  }
+]

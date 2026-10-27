@@ -1,0 +1,42 @@
+[
+  {
+    "name": "生成测试素材（h264+aac 的 mkv）",
+    "ok": true,
+    "detail": "20 KB ffmpeg=0"
+  },
+  {
+    "name": "创建视频任务",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "视频任务完成",
+    "ok": true,
+    "detail": "status=done"
+  },
+  {
+    "name": "任务记录了产物路径",
+    "ok": true,
+    "detail": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\aurora-tools-artifact\\out\\clip [clip].mp4"
+  },
+  {
+    "name": "记录的产物真实存在（关键）",
+    "ok": true,
+    "detail": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\aurora-tools-artifact\\out\\clip [clip].mp4"
+  },
+  {
+    "name": "产物是 mp4 且非空",
+    "ok": true,
+    "detail": "clip [clip].mp4 21 KB"
+  },
+  {
+    "name": "未残留中间文件",
+    "ok": true,
+    "detail": "clip [clip].mp4"
+  },
+  {
+    "name": "确认走的是转封装分支",
+    "ok": true,
+    "detail": "日志含 [VideoRemuxer] Remuxing"
+  }
+]

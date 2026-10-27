@@ -1,0 +1,62 @@
+[
+  {
+    "name": "生成测试素材",
+    "ok": true,
+    "detail": "drop-one.mp4 / drop-two.mp4"
+  },
+  {
+    "name": "生成测试文件夹",
+    "ok": true,
+    "detail": "batch/（含 txt 干扰项）"
+  },
+  {
+    "name": "拖入时遮罩出现后消失",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "两个视频进入待提取列表",
+    "ok": true,
+    "detail": "0 → 2"
+  },
+  {
+    "name": "文件名正确显示",
+    "ok": true,
+    "detail": "drop-one.mp4, drop-two.mp4"
+  },
+  {
+    "name": "文件夹被递归展开",
+    "ok": true,
+    "detail": "新增 2 个（in-folder.mp4 + nested/deep.mp4）"
+  },
+  {
+    "name": "深层文件也被找到",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "非媒体文件被过滤",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "拖入链接自动填入输入框",
+    "ok": true,
+    "detail": "http://127.0.0.1:9704/clip.mp4"
+  },
+  {
+    "name": "拖入链接自动完成解析",
+    "ok": true,
+    "detail": "clip"
+  },
+  {
+    "name": "待提取列表可执行提取",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "拖入的 4 个文件都成功产出音频",
+    "ok": true,
+    "detail": "成功 4/4：drop-one.mp3, drop-two.mp3, in-folder.mp3, deep.mp3"
+  }
+]
